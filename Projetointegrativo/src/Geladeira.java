@@ -34,11 +34,11 @@ public class Geladeira {
         return marca;
     }
     
-    public void setMarca(String marca) {  // Corrigido de 'setMaca' para 'setMarca'
+    public void setMarca(String marca) { 
         this.marca = marca;
     }
 
-    // Getter e Setter para cor
+    // cor
     public String getCor() {
         return cor;
     }
@@ -54,8 +54,6 @@ public class Geladeira {
     public void setPortas(int portas) {
         this.portas = portas;
     }
-
-    // Método main para testar a classe
     public static void main(String[] args) {
         Geladeira g1 = new Geladeira();  // usando o construtor sem parâmetros
         System.out.println("Capacidade: " + g1.getCapacidade());
